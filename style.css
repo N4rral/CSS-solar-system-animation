@@ -16,30 +16,27 @@ body{
     width: 5px;
     height: 5px;
     margin: auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/moon.png);
     animation: orbitMercury 15s infinite linear;
 }
 #Venus{
     width: 8px;
     height: 8px;
     margin: -45px auto auto auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/venus.png);
     animation: orbitVenus 25s infinite linear;
 }
 #Earth{
     width: 10px;
     height: 10px;
     margin: -10px auto auto auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/earth.png);
     animation: orbitEarth 40s infinite linear;
     display: grid;
 }
@@ -47,60 +44,53 @@ body{
     width: 3px;
     height: 3px;
     margin: auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 3px white;
+    background-image: url(pic/moon.png);
     animation: orbitMonth 10s infinite linear;
 }
 #Mars{
     width: 7px;
     height: 7px;
     margin: -7px auto auto auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/mars.png);
     animation: orbitMars 50s infinite linear;
 }
 #Jupiter{
     width: 25px;
     height: 25px;
     margin: -15px auto auto auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/jupiter.png);
     animation: orbitJupiter 75s infinite linear;
 }
 #Saturn{
     width: 20px;
     height: 20px;
     margin: -25px auto auto auto;
-    background-color: white;
     background-size: cover;
-    border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/saturn2.png);
     animation: orbitSaturn 100s infinite linear;
 }
 #Uranus{
     width: 17px;
     height: 17px;
     margin: -17px auto auto auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/uranus.png);
     animation: orbitUranus 150s infinite linear;
 }
 #Neptune{
     width: 15px;
     height: 15px;
     margin: -15px auto auto auto;
-    background-color: white;
     background-size: cover;
     border-radius: 100%;
-    box-shadow: 0px 0px 5px white;
+    background-image: url(pic/neptune.png);
     animation: orbitNeptune 200s infinite linear;
 }
 @keyframes orbitMercury{
